@@ -20,10 +20,7 @@ class Artist
     Song.all.select { |song|song.artist == self}
   end
  
- def new_find_or_create
-   
-   
- end
+
    def save
     @@all << self
     self
