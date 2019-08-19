@@ -16,7 +16,7 @@ class Song
     song = Song.new(data[1])
     song.artist_name = data[0]
     song 
-    binding.pry
+    
   end
 
  
