@@ -20,7 +20,7 @@ class Song
     
   end
   def artist_name=(name)
-    self.artist= Artist.new_find_or_create(name)
+    self.artist= Artist.find_or_create(name)
     artist.add_song(self)
     binding.pry
     
